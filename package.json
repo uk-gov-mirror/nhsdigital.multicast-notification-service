@@ -12,7 +12,7 @@
   "license": "MIT",
   "homepage": "https://github.com/NHSDigital/multicast-notification-service",
   "devDependencies": {
-    "@redocly/cli": "^2.29.2",
+    "@redocly/cli": "^2.30.0",
     "license-checker-rseidelsohn": "^4.4.2"
   }
 }
