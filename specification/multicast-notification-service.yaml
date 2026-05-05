@@ -8,7 +8,7 @@ info:
     ## Overview
     Before learning about the MNS API, we would recommend reviewing MNS as a service on the [MNS Service Page](https://digital.nhs.uk/services/multicast-notification-service).
 
-    ![MNS High-level Diagram](https://raw.githubusercontent.com/NHSDigital/multicast-notification-service/master/assets/images/MNSOverview2.svg)
+    ![MNS High-level Diagram](assets/images/MNSOverview2.svg)
 
     This page is about how to implement the API for the Multicast Notificaton Service, to find out more about this service itself and its uses visit our [Multicast Notification Service](https://digital.nhs.uk/services/multicast-notification-service) service page.
 
@@ -101,7 +101,7 @@ info:
     Alternatively, you can try out the sandbox using our Postman collection (simply download the file from the link and import it into Postman):
 
 
-    [![Run in Postman](https://run.pstmn.io/button.svg)](https://github.com/NHSDigital/multicast-notification-service/blob/master/postman/sandbox/Multicast_Notification_Sandbox.postman_collection.json)
+    [![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/54527860-f64d9e7d-6095-46c3-bc58-92672de294f6)
     ## Onboarding
     During the planned private beta this service will only be available to NHS England product teams. The onboarding process is in development and we will be
     improving it iteratively as we gather feedback from the first set of users.
