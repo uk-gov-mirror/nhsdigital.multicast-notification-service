@@ -4,7 +4,7 @@
   "description": "OAS (Swagger v3) API Definition for Template API",
   "scripts": {
     "lint": "redocly lint specification/multicast-notification-service.yaml",
-    "publish": "mkdir -p build && redocly bundle specification/multicast-notification-service.yaml --dereferenced --remove-unused-components --ext json | poetry run python scripts/set_version.py > build/multicast-notification-service.json",
+    "publish": "mkdir -p build && redocly bundle specification/multicast-notification-service.yaml --dereferenced --remove-unused-components --ext json | poetry run python scripts/set_version.py | poetry run python scripts/inline_svg.py > build/multicast-notification-service.json",
     "serve": "redocly build-docs build/multicast-notification-service.json -o build/index.html && python -m http.server 5000 --directory build",
     "check-licenses": "node_modules/.bin/license-checker-rseidelsohn --failOn GPL --failOn LGPL"
   },
